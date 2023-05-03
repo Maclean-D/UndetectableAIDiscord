@@ -26,7 +26,7 @@ Copy the `.env` file from the repository and update the following variables:
 Guide to obtain these here: https://www.writebots.com/discord-bot-token/
 - `GUILD_ID`: Your server's guild ID
 
-Turn on Discord developer moed and right click the server you added it to and "Copy Server ID"
+Turn on Discord developer mode, right click the server you added it to and "Copy Server ID"
 - `UNDETECTABLE_API_KEY`: Your Undetectable AI API key
 
 Create an Undectable.AI Account and obtain one here: https://undetectable.ai/develop
