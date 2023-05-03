@@ -1,0 +1,14 @@
+{
+  "name": "undectableaidicord",
+  "version": "1.0.0",
+  "description": "A Discord bot that through context menus can use the Undectable AI API to rewrite messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maclean Dunkin",
+  "license": "GNU",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
