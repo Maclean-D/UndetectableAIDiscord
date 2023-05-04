@@ -1,4 +1,8 @@
-const fetch = require('node-fetch');
+let fetch;
+
+(async () => {
+  fetch = await import('node-fetch').then((module) => module.default);
+})();
 
 async function humanizeText(content, readability, purpose) {
   const apiKey = process.env.UNDETECTABLE_API_KEY;
