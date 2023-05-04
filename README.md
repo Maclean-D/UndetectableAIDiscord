@@ -1,5 +1,6 @@
 # Undetectable AI Discord Bot
 A Discord bot that uses context menus to rewrite messages with the Undetectable AI API.
+![Picture of bot converting normal text through undetectable AI](Example.png)
 
 ## Setup
 
