@@ -6,7 +6,9 @@ A Discord bot that uses context menus to rewrite messages with the [Undetectable
 
 [![Run on Repl.it](https://replit.com/badge/github/Maclean-D/UndectableAIDicord)](https://replit.com/new/github/Maclean-D/UndectableAIDicord)
 
-1. Edit the `keys.env` file:
+1. Click the above button
+
+2. Edit the `keys.env` file:
 
 - `BOT_TOKEN`: Your Discord bot token
 - `CLIENT_ID`: Your Discord bot's client ID
@@ -20,7 +22,9 @@ Turn on Discord developer mode, right click the server you added it to and "Copy
 
 Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste your API key here.
 
-2. Run the bot by clicking "Run" at the top.
+3. Run the bot by clicking "Run" at the top.
+
+- If you want your bot to be always on, click the name in the top left and turn on always on.
 
 ## DIY Setup
 
