@@ -31,13 +31,13 @@ If you want your bot to be always on, click the name in the top left and turn on
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Maclean-D/UndetectableAIDicord.git
+git clone https://github.com/Maclean-D/UndetectableAIDiscord.git
 ```
 
 2. Install the required dependencies:
 
 ```bash
-cd UndetectableAIDicord
+cd UndetectableAIDiscord
 npm install
 ```
 
