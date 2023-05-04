@@ -24,7 +24,7 @@ Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste y
 
 3. Run the bot by clicking "Run" at the top.
 
-- If you want your bot to be always on, click the name in the top left and turn on always on.
+If you want your bot to be always on, click the name in the top left and turn on always on.
 
 ## DIY Setup
 
