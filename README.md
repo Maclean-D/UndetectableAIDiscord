@@ -2,7 +2,27 @@
 A Discord bot that uses context menus to rewrite messages with the [Undetectable AI](https://undetectable.ai?fpr=yws1m) API.
 ![Picture of bot converting normal text through undetectable AI](Example.png)
 
-## Setup
+## Replit Setup
+
+[![Run on Repl.it](https://replit.com/badge/github/Maclean-D/UndectableAIDicord)](https://replit.com/new/github/Maclean-D/UndectableAIDicord)
+
+1. Edit the `keys.env` file:
+
+- `BOT_TOKEN`: Your Discord bot token
+- `CLIENT_ID`: Your Discord bot's client ID
+
+Guide to obtain these here: https://www.writebots.com/discord-bot-token/
+You need the *bot* and *applications.commands* scopes.
+- `GUILD_ID`: Your server's guild ID
+
+Turn on Discord developer mode, right click the server you added it to and "Copy Server ID"
+- `UNDETECTABLE_API_KEY`: Your Undetectable AI API key
+
+Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste your API key here.
+
+2. Run the bot by clicking "Run" at the top.
+
+## DIY Setup
 
 1. Clone the repository:
 
@@ -18,8 +38,6 @@ npm install
 ```
 
 3. Configure the `keys.env` file:
-
-Copy the `keys.env` file from the repository and update the following variables:
 
 - `BOT_TOKEN`: Your Discord bot token
 - `CLIENT_ID`: Your Discord bot's client ID
@@ -43,7 +61,7 @@ The bot should now be running, and you can use the context menu commands to rewr
 
 ## Usage
 
-To use the bot, simply right-click on a message in your Discord server and choose one of the following context menu options:
+To use the bot, right-click on a message in your Discord server>Apps> and choose one of the following:
 
 - Humanize General Writing: Rewrites the message using high school readability and general writing purpose.
 - Humanize Essay: Rewrites the message using university readability and essay purpose.
