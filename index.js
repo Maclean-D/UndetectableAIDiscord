@@ -3,7 +3,7 @@ const {
   Intents,
 } = require('discord.js');
 const { humanizeText } = require('./undetectable');
-require('dotenv').config();
+require('dotenv').config({ path: './keys.env' });
 
 const client = new Client({
   intents: [Intents.FLAGS.Guilds, Intents.FLAGS.GuildMessages],
