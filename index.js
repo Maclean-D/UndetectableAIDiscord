@@ -43,20 +43,16 @@ client.on('interactionCreate', async (interaction) => {
   }
 
   try {
-    const humanizedContent = await humanizeText(
-      targetMessage.content,
-      readability,
-      purpose
-    );
-    await interaction.reply(humanizedContent);
+    await interaction.deferReply();
+    const humanizedContent = await humanizeText(targetMessage.content, readability, purpose);
+    await interaction.editReply(humanizedContent);
   } catch (error) {
     console.error(error);
-    await interaction.reply({
+    await interaction.editReply({
       content: 'An error occurred while processing the text.',
       ephemeral: true,
     });
   }
-});
 
 client.login(process.env.BOT_TOKEN);
 
