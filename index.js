@@ -1,12 +1,15 @@
 const {
   Client,
-  Intents,
+  GatewayIntentBits,
 } = require('discord.js');
 const { humanizeText } = require('./undetectable');
 require('dotenv').config({ path: './keys.env' });
 
 const client = new Client({
-  intents: [Intents.FLAGS.Guilds, Intents.FLAGS.GuildMessages],
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+  ],
 });
 
 client.once('ready', () => {
