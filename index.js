@@ -40,21 +40,30 @@ client.on('interactionCreate', async (interaction) => {
       break;
     default:
       return;
-  }
+    }
 
-  try {
-    await interaction.deferReply();
-    const humanizedContent = await humanizeText(targetMessage.content, readability, purpose);
-    await interaction.editReply(humanizedContent);
-  } catch (error) {
-    console.error(error);
-    await interaction.editReply({
-      content: 'An error occurred while processing the text.',
-      ephemeral: true,
-    });
-  }
-
-client.login(process.env.BOT_TOKEN);
+    try {
+      // Defer the reply to let the user know the bot is processing the request
+      await interaction.deferReply();
+  
+      const humanizedContent = await humanizeText(
+        targetMessage.content,
+        readability,
+        purpose
+      );
+  
+      // Edit the deferred reply with the humanized content
+      await interaction.editReply(humanizedContent);
+    } catch (error) {
+      console.error(error);
+      await interaction.editReply({
+        content: 'An error occurred while processing the text.',
+        ephemeral: true,
+      });
+    }
+  });
+  
+  client.login(process.env.BOT_TOKEN);
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
@@ -68,7 +77,7 @@ const commands = [
   humanizeGeneralWriting,
   humanizeEssay,
   humaniseStory,
-].map((command) => command.toJSON());
+].map((command) => command);
 const rest = new REST({ version: '9' }).setToken(process.env.BOT_TOKEN);
 
 (async () => {
