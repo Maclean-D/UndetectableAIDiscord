@@ -17,14 +17,15 @@ cd UndetectableAIDiscord
 npm install
 ```
 
-3. Configure the `.env` file:
+3. Configure the `keys.env` file:
 
-Copy the `.env` file from the repository and update the following variables:
+Copy the `keys.env` file from the repository and update the following variables:
 
 - `BOT_TOKEN`: Your Discord bot token
 - `CLIENT_ID`: Your Discord bot's client ID
 
 Guide to obtain these here: https://www.writebots.com/discord-bot-token/
+You need the *bot* and *applications.commands* scopes.
 - `GUILD_ID`: Your server's guild ID
 
 Turn on Discord developer mode, right click the server you added it to and "Copy Server ID"
