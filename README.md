@@ -53,4 +53,5 @@ The bot will process the selected message using the Undetectable AI API and send
 Remember that you need to have sufficient word balance in your Undetectable AI account for the bot to process the text. If you encounter any issues or errors, check the bot's console output for more information.
 
 #### Other
+
 Purchases made through some links may provide some compensation to Maclean Dunkin.
