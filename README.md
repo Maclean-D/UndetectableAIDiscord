@@ -37,7 +37,7 @@ git clone https://github.com/Maclean-D/UndetectableAIDicord.git
 2. Install the required dependencies:
 
 ```bash
-cd UndetectableAIDiscord
+cd UndetectableAIDicord
 npm install
 ```
 
