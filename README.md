@@ -1,5 +1,5 @@
 # Undetectable AI Discord Bot
-A Discord bot that uses context menus to rewrite messages with the Undetectable AI API.
+A Discord bot that uses context menus to rewrite messages with the [Undetectable AI](https://undetectable.ai?fpr=yws1m) API.
 ![Picture of bot converting normal text through undetectable AI](Example.png)
 
 ## Setup
@@ -30,9 +30,9 @@ Guide to obtain these here: https://www.writebots.com/discord-bot-token/
 Turn on Discord developer mode, right click the server you added it to and "Copy Server ID"
 - `UNDETECTABLE_API_KEY`: Your Undetectable AI API key
 
-Create an Undectable.AI Account and obtain one here: https://undetectable.ai/develop
+Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste your API key here.
 
-4. Run the bot:
+1. Run the bot:
 
 ```bash
 node index.js
@@ -51,3 +51,6 @@ To use the bot, simply right-click on a message in your Discord server and choos
 The bot will process the selected message using the Undetectable AI API and send the rewritten text as a reply.
 
 Remember that you need to have sufficient word balance in your Undetectable AI account for the bot to process the text. If you encounter any issues or errors, check the bot's console output for more information.
+
+#### Other
+Purchases made through some links may provide some compensation to Maclean Dunkin.
