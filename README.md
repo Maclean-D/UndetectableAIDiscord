@@ -63,13 +63,13 @@ Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste y
 node index.js
 ```
 
-The bot should now be running, and you can use the context menu commands to rewrite messages with the Undetectable AI API.
-
 Or run the bot using screen:
 
 ```bash
 screen -S screen_name node index.js
 ```
+
+The bot should now be running, and you can use the context menu commands to rewrite messages with the Undetectable AI API.
 
 ## Usage
 
