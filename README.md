@@ -41,7 +41,7 @@ cd UndetectableAIDiscord
 npm install
 ```
 
-You need at Node.js version 14 or higher
+You need Node.js version 14 or higher
 
 3. Configure the `keys.env` file:
 
