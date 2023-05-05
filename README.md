@@ -41,6 +41,8 @@ cd UndetectableAIDiscord
 npm install
 ```
 
+You need at Node.js version 14 or higher
+
 3. Configure the `keys.env` file:
 
 - `BOT_TOKEN`: Your Discord bot token
@@ -55,13 +57,19 @@ Turn on Discord developer mode, right click the server you added it to and "Copy
 
 Create an [Undectable.AI](https://undetectable.ai?fpr=yws1m) Account and paste your API key here.
 
-1. Run the bot:
+4. Run the bot:
 
 ```bash
 node index.js
 ```
 
 The bot should now be running, and you can use the context menu commands to rewrite messages with the Undetectable AI API.
+
+Or run the bot using screen:
+
+```bash
+screen -S screen_name node index.js
+```
 
 ## Usage
 
